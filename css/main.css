@@ -1,1 +1,33 @@
 /* place your CSS code here */
+p {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1rem;
+}
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+}
+
+a:link {color:blue;}
+a:visited {color:purple;}
+a:hover {background-color: navy; color:white;}
+a:active {color:red;}
+
+.styled-section {
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+}
+
+#my_background {
+    background-color: beige;
+}
+
+#my_interests {
+    background-color: blanchedalmond;
+}
+
+section h2 {
+    color: darkblue;
+    font-size: 1.5rem;
+}
